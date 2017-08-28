@@ -8,8 +8,8 @@ async function init() {
   try {
     // const options = await inquirer.prompt( config.questions );
     const client = cli.createClient ( {
-      spaceId     : 'f20lfrunubsq',
-      accessToken : '992fab5e26c08c2124e33d1b24eec0f434637c52a269bb69c06bddd44182c1d2'
+      spaceId     : 'SPACE_ID',
+      accessToken : 'MANAGEMENT_TOKEN'
     } );
     const savedExtension = await client.save( {
       id: config.id,
